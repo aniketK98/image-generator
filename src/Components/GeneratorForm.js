@@ -67,13 +67,13 @@ function GeneratorForm() {
             <div className="form-group">
               <label>Select image size: </label>
               <select name="size" value={size} onChange={onChange}>
-                <option value="small">Small</option>
-                <option value="medium">Medium</option>
-                <option value="large">Large</option>
+                <option value="small">Small(256x256)</option>
+                <option value="medium">Medium(512x512)</option>
+                <option value="large">Large(1024x1024)</option>
               </select>
             </div>
             <div className="form-group">
-              <label>Select number of size: </label>
+              <label>Select number of images: </label>
               <select name="n" value={n} onChange={onChange}>
                 <option value="1">1</option>
                 <option value="2">2</option>

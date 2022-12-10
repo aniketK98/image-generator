@@ -87,3 +87,20 @@ label {
   margin: 10px;
   border-radius: 5px;
 }
+
+@media screen and (max-width: 600px) {
+  .form-group input {
+    width: 300px;
+  }
+  .form-group select {
+    width: 325px;
+  }
+  .form-group button {
+    width: 325px;
+  }
+  .image {
+    width: 80vw;
+    display: flex;
+    align-items: center;
+  }
+}
